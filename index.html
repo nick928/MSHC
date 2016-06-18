@@ -81,6 +81,9 @@
       display: inline-block;
       transition: background-color 0.6s ease;
     }
+    .active, .dot:hover {
+      background-color: #717171;
+    }
     .fade {
       -webkit-animation-name: fade;
       -webkit-animation-duration: 2s;
@@ -105,6 +108,18 @@
     }
     #slides {
       overflow: auto;
+    }
+    #bottom {
+      max-width: 1150;
+    }
+    #about {
+      width: 383.3px;
+    }
+    #hours {
+      width: 383.3px;
+    }
+    #map {
+      width: 383.3px;
     }
     @-webkit-keyframes fade {
       from {opacity: .6}
@@ -170,6 +185,17 @@
         setTimeout(showSlides, 10000);
       }
     </script>
+      </div>
+      <div id="bottom">
+        <div id="about">
+          test
+        </div>
+        <div id="hours">
+          test
+        </div>
+        <div id="map">
+          test
+        </div>
       </div>
     </div>
   </div>
